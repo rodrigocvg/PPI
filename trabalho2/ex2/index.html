@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente</title>
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+    <hr>
+    <h2>Dados Pessoais</h2>
+    <hr>
+    <form action="login.php" method="post">
+
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required minlength="2" maxlength="50"> <br>
+
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required> <br>
+
+        <label for="CPF">CPF</label> 
+        <input type="text" name="CPF" id="CPF" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" required> <br>
+
+        <label for="idade">Idade</label>
+        <input type="number" name="idade" id="idade" required> <br>
+
+        <label for="telefone">Telefone</label>
+        <input type="tel" name="telefone" id="telefone" required> <br>
+
+        <label for="datanasc">Data de nascimento</label>
+        <input type="date" name="datanasc" id="datanasc"> <br>
+
+
+
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">Masculino</label>
+            <input type="radio" name="sexo" id="feminino">
+            <label for="masculino">Feminino</label> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Escolha o Estado Civil</legend>
+            <div>
+                <input type="radio" id="solteiro" name="estadocivil" value="solteiro">
+                <label for="solteiro">Solteiro</label>
+            </div>
+            <div>
+                <input type="radio" id="casado" name="estadocivil" value="casado">
+                <label for="casado">Casado</label>
+            </div>
+            <div>
+                <input type="radio" id="divorciado" name="estadocivil" value="divorciado">
+                <label for="divorciado">Divorciado</label>
+            </div>
+        </fieldset>
+
+        <label for="testereadonly">Programador</label>
+        <input type="text" name="testereadonly" id="testereadonly"  value="BLOQUEADO" readonly>
+        <hr>
+
+        <h2>Endereço de Entrega</h2>
+        <label for="cep">CEP</label>
+        <input type="text" name="cep" id="cep" required> <br> <br>
+
+        <fieldset>
+          <label for="tipologradouro">Tipo de logradouro</label>
+          <select id="tipologradouro" name="tipologradouro">
+            <option value="rua">Rua</option>
+            <option value="avenida">Avenida</option>
+            <option value="praca">Praça</option>
+          </select>
+        </fieldset> <br>
+
+        <label for="logradouro">Logradouro</label>
+        <input type="text" id="logradouro" name = "logradouro" required> <br>
+
+        <label for="bairro">Bairro</label>
+        <input type="text" id="bairro" name = "bairro" required> <br>
+
+        <label for="cidade">Cidade</label>
+        <input type="text" id="cidade" name = "cidade" required> <br>
+        
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" name = "estado" required> <br>
+
+        <input type="hidden" name="oculto" id="oculto">
+
+        <h2>Informações adicionais</h2>
+
+        <fieldset>
+            <legend>Interesses</legend>
+            <div>
+                <input type="checkbox" id="filmes" name="interesses" value="filmes">
+                <label for="filmes">Filmes</label>
+            </div>
+            <div>
+                <input type="checkbox" id="informatica" name="interesses" value="informatica">
+                <label for="informatica">Informática</label>
+            </div>
+            <div>
+                <input type="checkbox" id="games" name="interesses" value="games">
+                <label for="games">Games</label>
+            </div>
+            <div>
+                <input type="checkbox" id="livros" name="interesses" value="livros">
+                <label for="livros">Livros</label>
+            </div>
+            <div>
+                <input type="checkbox" id="roupas" name="interesses" value="roupas">
+                <label for="roupas">Roupas</label>
+            </div>
+            <div>
+                <input type="checkbox" id="futebol" name="interesses" value="futebol">
+                <label for="futebol">Futebol</label>
+            </div>
+        </fieldset>
+        <br>
+        <label for="infcompl">Informações Complementares</label> <br>
+        <textarea name="infcompl" id="infcompl" cols="30" rows="10" placeholder="Digite aqui..."></textarea> <br>
+        <br>
+
+        <label for="arquivo">Envio de Arquivos</label>
+        <input type="file" name="arquivo" id="arquivo">
+        <br>
+        <p></p>
+        <button>ENVIAR FORMULÁRIO</button>
+
+    </form>
+    
+</body>
+
+</html>

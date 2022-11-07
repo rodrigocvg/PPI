@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    background-size: cover;
+    margin: 0;
+    padding: 30px;
+    
+}
+
+.modal{
+    background-color: white;
+    display: none;
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+    top: 0;
+    left: 0;
+
+    overflow: auto;
+    z-index: 1;
+}
+
+.modalContent{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 20px;
+    border: 0.5px solid black;
+    box-shadow: 0 0 5px #333;
+    
+    
+    width: 50%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.modalContent button{
+    width: 100%;
+    background-color: gray;
+    border-radius: 2px;
+    border: 1px solid gainsboro;
+    padding: 5px;
+    color:#333;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    color: aliceblue;
+}
+
+.modalContent button:hover{
+    background-color: whitesmoke;
+}

@@ -1,0 +1,40 @@
+main{
+    margin: 0% auto;
+    width: 500px;
+}
+
+
+input{
+    padding: 2px;
+    margin: 10px;
+    width: 95%;
+    text-align: left;
+
+}
+h3{
+    text-align: center;
+}
+div {
+    margin: 20px 0;
+}
+
+.loginBox{
+    background-color: gainsboro;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    width: 100%;
+}
+label{
+    padding: 2px;
+    margin: 10px;
+    text-align: left;
+    
+}
+span{
+    color: red;
+    text-align: left;
+}
+body{
+    background-color: crimson;
+}

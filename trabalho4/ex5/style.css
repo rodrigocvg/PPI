@@ -1,0 +1,72 @@
+nav button{
+    border: none;
+    outline: none;
+    padding: 0 10px;
+    background-color: inherit;
+    height: 30px;
+    margin: 0;
+}
+nav button:hover{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+button.buttonActive{
+    font-weight: bold;
+    color: blue;
+}
+.tabs section{
+    display: none;
+}
+
+section.tabActive{
+    display: block;
+}
+main {
+    background-color: white;
+    padding: 10px 20px;
+    width: 40%;
+    margin:auto;
+    margin-top: 5px;
+}
+h2{
+    color: darkblue;
+}
+body{
+    background-color: #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: auto;
+    text-align: center;
+}
+nav {
+    background-color: gainsboro;
+    color: #eee;
+    text-align: center;
+    padding: 2px;
+    top: 0;
+    position:sticky;
+}
+header{
+    font-size: 20px;
+    text-align: center;
+    background-color: black;
+    color: #eee;
+    padding: 1px;
+    margin: auto;
+    
+}
+nav ul {
+    color: black;
+    background-color: #eee;
+    margin: auto;
+    display: block;
+    padding: 10px 10px;
+
+}
+nav ul li{
+    margin: auto;
+    display: inline;
+    padding: 20px 20px;
+    color:#eee;
+}

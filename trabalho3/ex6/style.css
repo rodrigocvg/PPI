@@ -1,0 +1,27 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+    text-align: center;
+}
+
+input::placeholder{
+    
+    font-size: 12px;
+    
+}
+
+input:invalid  + span::after{
+    content: '✖';
+    
+}
+
+input:valid + span::after{
+    content: '✓';
+    
+   
+}
