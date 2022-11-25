@@ -1,0 +1,36 @@
+body {
+    padding: 1rem;
+  }
+
+  article {
+    font: 1.5rem /1.5 "Heuvetica Neue";
+    width: 100%;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+  }
+
+
+  .col-md-4 article {
+    background-color: #fdd;
+  }
+
+  .col-md-8 article {
+    background-color: #fdd;
+  }
+
+  .col article {
+    background-color: #dfd;
+  }
+
+  .col-md article{
+    background-color: #ddf;
+  }
+
+  .col-md-1 article {
+    background-color: #ddf;
+  }
+  .col-md-2 article {
+    background-color: #ddf;
+  }
+  
