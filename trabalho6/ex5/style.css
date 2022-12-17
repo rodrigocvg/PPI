@@ -1,0 +1,40 @@
+@media (max-width: 300px) {
+    .body{
+        width: 95%;
+    }
+}
+body{
+    background-color: gray;
+    
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 4px #ddd  ;
+    display: block;
+    position: absolute;
+    padding: 80px;
+    margin-top: 10%;
+    margin-right: 20%;
+    margin-left: 35%;
+    margin-bottom: 0%;
+}
+label{
+    font-size: x-large;
+    text-align: left;
+    width: 100px;
+}
+input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 7%;
+}
+button{
+    font-size: large;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    width: 300px;
+
+}
+
